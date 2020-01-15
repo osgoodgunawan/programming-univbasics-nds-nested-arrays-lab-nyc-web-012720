@@ -30,7 +30,7 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  # final=matrix
+  final=matrix
   final[row][column]= new_value
   final
 end
